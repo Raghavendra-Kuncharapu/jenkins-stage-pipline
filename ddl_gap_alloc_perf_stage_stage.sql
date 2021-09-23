@@ -1,10 +1,3 @@
-/* ***********************************************************************************/
-/* TYPE     : SQL Script  [DDL]                                                      */
-/* NAME     : ddl_gap_alloc_perf_stage_stage.sql                                                 */
-/* PURPOSE  : Script to create GAP_ALLOC_REPORT table                                  */
-/*                                                                                   */
-/*                                                                                   */
-/* ***********************************************************************************/
 set sqlblanklines on;
 
 DROP TABLE HR.GAP_ALLOC_PERF_STAGE
