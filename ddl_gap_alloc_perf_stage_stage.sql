@@ -5,6 +5,10 @@
 /*                                                                                   */
 /*                                                                                   */
 /* ***********************************************************************************/
+set sqlblanklines on;
+
+DROP TABLE HR.GAP_ALLOC_PERF_STAGE
+/
 
 CREATE TABLE HR.GAP_ALLOC_PERF_STAGE(ALLOC_NO           NUMBER(10),
                                          FROM_LOC           NUMBER(10),
