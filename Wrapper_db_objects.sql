@@ -13,6 +13,6 @@ PROMPT--------------------------------------
 PROMPT  ddl_product_information.sql
 @ddl_product_information.sql
 PROMPT  Execution of ddl_product_information.sql  completed.
-PROMPT---------------------------------------
+PROMPT--------------------------------------
 
 SPOOL  OFF;
