@@ -28,7 +28,7 @@ ADD ( CONSTRAINT product_information_pk PRIMARY KEY (product_id)
     
 CREATE OR REPLACE PUBLIC SYNONYM product_information FOR HR.product_information
 /
-GRANT SELECT,INSERT,UPDATE,DELETE ON HR.product_information TO HR;
+GRANT SELECT,INSERT,UPDATE,DELETE ON HR.product_information TO HR
 /
 
 SHOW ERRORS;
