@@ -1,4 +1,5 @@
 DROP TABLE HR.order_items
+
 /
 CREATE TABLE hr.order_items
     ( order_id           NUMBER(12) 
@@ -12,7 +13,7 @@ TABLESPACE USERS
 
 CREATE OR REPLACE PUBLIC SYNONYM order_items FOR HR.order_items
 /
-GRANT SELECT,INSERT,UPDATE,DELETE ON HR.order_items TO HR;
+GRANT SELECT,INSERT,UPDATE,DELETE ON HR.order_items TO HR
 /
 
 SHOW ERRORS;
